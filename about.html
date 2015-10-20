@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <TITLE>MW150R</TITLE>
+  <meta charset="utf-8">
+  
+  <LINK rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.2/jquery.mobile.min.css">
+  <SCRIPT src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></SCRIPT>
+  <SCRIPT src="http://apps.bdimg.com/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></SCRIPT>
+
+  <LINK href="./css/css_main.css" rel=stylesheet type="text/css">
+  <SCRIPT language="javascript" src="./js/common.js" type="text/javascript"></SCRIPT>
+  <SCRIPT language="javascript" src="./js/about.js" type="text/javascript"></SCRIPT>
+  <SCRIPT language="javascript" type="text/javascript">
+    <!--
+    if(window.parent == window){window.location.href="http://192.168.1.1";}
+    function Click(){ return false;}
+    document.oncontextmenu=Click;
+    //-->
+  </SCRIPT>
+
+</HEAD>
+<BODY>
+<CENTER>
+  <FORM action="#" enctype="multipart/form-data" method="get">
+    <!--  // LAN -->
+    <TABLE width="502" border="0" cellpadding="0" cellspacing="0" class="space">
+      <TR>
+        <TD width="7" class="title"><IMG src="./images/arc.gif" width="7" height="24"></TD>
+        <TD width="495" align="left" valign="middle" class="title">版本信息</TD>
+      </TR>
+      <TR>
+        <TD colspan="2"><TABLE width="502" border="0" cellspacing="0" cellpadding="0">
+            <TR>
+              <TD width="1" rowspan="15" class="vline"><BR></TD>
+              <TD width="500" height="50"><TABLE width="400" border="0" align="center" class="space">
+                  <TR>
+                    <TD width="120">当前软件版本：</TD>
+                    <TD><DIV id="fversion">-</DIV></TD>
+                  </TR>
+                  <TR>
+                    <TD>当前硬件版本：</TD>
+                    <TD><DIV id="hversion">-</DIV></TD>
+                  </TR>
+                </TABLE></TD>
+              <TD width="1" rowspan="15" class="vline"><BR></TD>
+            </TR>
+            <TR>
+              <TD class="hline"><IMG src="./images/empty.gif" width="1" height="1"></TD>
+            </TR>
+          </TABLE></TD>
+      </TR>
+    </TABLE>
+
+    <TABLE width="502" border="0" cellpadding="0" cellspacing="0" class="space">
+      <TR>
+        <TD width="7" class="title"><IMG src="./images/arc.gif" width="7" height="24"></TD>
+        <TD width="495" align="left" valign="middle" class="title">LAN口状态</TD>
+      </TR>
+      <TR>
+        <TD colspan="2"><TABLE width="502" border="0" cellspacing="0" cellpadding="0">
+            <TR>
+              <TD width="1" rowspan="15" class="vline"><BR></TD>
+              <TD width="500" height="50"><TABLE width="400" border="0" align="center" class="space">
+                  <TR>
+                    <TD width="110">MAC 地址：</TD>
+                    <TD width="320"><DIV id="lanMac">-</DIV></TD>
+                  </TR>
+                  <TR>
+                    <TD>IP地址：</TD>
+                    <TD><DIV id="lanIP">-</DIV></TD>
+                  </TR>
+                  <TR>
+                    <TD>子网掩码：</TD>
+                    <TD><DIV id="lanMask">-</DIV></TD>
+                  </TR>
+                </TABLE></TD>
+              <TD width="1" rowspan="15" class="vline"><BR></TD>
+            </TR>
+            <TR>
+              <TD class="hline"><IMG src="./images/empty.gif" width="1" height="1"></TD>
+            </TR>
+          </TABLE></TD>
+      </TR>
+    </TABLE>
+
+  </FORM>
+</CENTER>
+</BODY>
+</HTML>

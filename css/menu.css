@@ -1,0 +1,14 @@
+BODY {MARGIN-TOP: 15px; MARGIN-LEFT: 15px; FONT-FAMILY: "宋体", "Times New Roman"; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #dfdfdf}
+menu {margin-left:0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; LINE-HEIGHT: 18px; HEIGHT: 18px; TEXT-DECORATION: none}
+ol {margin-top:4px; margin-left:2px; PADDING-LEFT: 13px;   FONT-SIZE: 12px;  TEXT-DECORATION: none; height:  18px; line-height:  18px; list-style: inside none; }
+ol.info {PADDING-LEFT: 2px; COLOR: ff0000;}
+a.L1  {COLOR: #ff0000}
+a.L2  {COLOR: #333333}
+A:visited {TEXT-DECORATION: none; underline: none}
+A:hover {CURSOR: hand; COLOR: #333333; TEXT-DECORATION: none}
+A:link {TEXT-DECORATION: none; underline: none; }    
+ol.dot1	{BACKGROUND-POSITION: 0px 3px; BACKGROUND-IMAGE: url(./images/pw.gif); BACKGROUND-REPEAT: no-repeat}
+ol.plus 	{BACKGROUND-POSITION: 0px 3px; BACKGROUND-IMAGE: url(./images/plus.gif); BACKGROUND-REPEAT: no-repeat}
+ol.minus 	{BACKGROUND-POSITION: 0px 3px; BACKGROUND-IMAGE: url(./images/minus.gif); BACKGROUND-REPEAT: no-repeat}
+ol.dot2 	{BACKGROUND-POSITION: 13px 3px; PADDING-LEFT: 26px; BACKGROUND-IMAGE: url(./images/pw.gif); BACKGROUND-REPEAT: no-repeat}
+ol.otherInfo {PADDING-RIGHT: 20px; PADDING-LEFT: 1px}
